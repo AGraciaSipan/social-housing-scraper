@@ -22,7 +22,7 @@ FLOAT_COLS = [
     "S. SAFAREIG",
     "T. TERRASSA",
     "B. BALCÓ",
-]  # column names duplicated except for 'Superfície'
+]
 COLUMNS_MAP = {"": "ID", "Superfície": "Superfície (m2)", "Adjudicació": "Adjudicat"}
 
 
