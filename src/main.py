@@ -7,7 +7,6 @@ from utils.web_scraper import WebScraper
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 WEB_URL = "https://www.femciutat.cat/promocions-actuals/viladecans-central-placa"
-PDF_URL = "https://www.femciutat.cat/storage/uploads/viladecans-central-placa/02%20COST%20HAB%20reserva%20vila%202.pdf"
 
 COLS = [
     "ID",
