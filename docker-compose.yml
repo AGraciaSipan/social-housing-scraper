@@ -1,0 +1,9 @@
+services:
+  house-scraper:
+    build:
+      context: .
+      target: dev
+    ports:
+    - 8080:8080
+    volumes:
+      - ./src:/home/newuser/house-scraper
