@@ -24,4 +24,4 @@ ADD ./dev-requirements.txt /home/newuser/house-scraper/dev-requirements.txt
 RUN pip install -r ./dev-requirements.txt
 RUN rm ./dev-requirements.txt
 
-CMD ["python", "main.py"]
+CMD ["tail", "-f", "/dev/null"]
