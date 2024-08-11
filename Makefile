@@ -24,6 +24,11 @@ down:  ## Stop local server container
 	docker-compose down
 	@echo "----Containers Stopped----"
 
+mypy: ## Runs MyPy
+	@echo "----Running MyPy Type Check----"
+	docker-compose exec house-scraper mypy .
+	@echo "----Type Check Complete----"
+
 scrap:  ## Runs main file
 	@echo "----Running main.py----"
 	docker-compose exec house-scraper python main.py
